@@ -8,6 +8,6 @@ This is a simple game to guess a randomly generated number by using the while lo
 Once you assign the number for the top of the range, you can make your guess, which will be counted.  
 It also tells you whether your guess was bigger or smaller than the target number.  
 
-2. [Quiz Game](https://github.com/areumhan0423/Mini-Python-Projects/blob/main/Quiz%20Game.py)
+2. [Quiz Game](https://github.com/areumhan0423/Mini-Python-Projects/blob/main/Quiz%20Game.py)  
 This is a quiz game that asks the user four questions about the United States and the United Kingdom using if statements.  
 The game keeps track of the user's score and calculates the ratio of correct answers. The result is displayed at the end of the game.  
