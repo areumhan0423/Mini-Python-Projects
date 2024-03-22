@@ -11,3 +11,8 @@ It also tells you whether your guess was bigger or smaller than the target numbe
 2. [Quiz Game](https://github.com/areumhan0423/Mini-Python-Projects/blob/main/Quiz%20Game.py)  
 This is a quiz game that asks the user four questions about the United States and the United Kingdom using if statements.  
 The game keeps track of the user's score and calculates the ratio of correct answers. The result is displayed at the end of the game.  
+
+3. [Rock Paper Scissors](https://github.com/areumhan0423/Mini-Python-Projects/blob/main/Rock%20Paper%20Scissors.py)
+This is a rock paper scissors game agains user and the computer with random module and the while loop. 
+With the list stores stores choices, the game counts scores.
+The accumulated score is presented at the end of the game. 
