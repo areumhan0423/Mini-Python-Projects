@@ -7,16 +7,20 @@ def encounter_river():
                    " Type walk to walk around and swim to swim across: ").lower()
     if answer == "swim":
         print("You swam across and were eaten by an alligator.")
+        quit_game()
     elif answer == "walk":
         print("You walked for many miles, ran out of water and you lost the game. ")
+        quit_game()
     else:
         print("Not a valid option. You lose. ")
+        quit_game()
 
 # create function for the choice of right
 def encounter_bridge():
     answer = input("You come to a bridge, it looks wobbly. Do you want to cross it or head back?(cross/back) ").lower()
     if answer == "back":
         print("You go back and cannot make it to the start. You lose.")
+        quit_game()
     # random event occurs after crossing the bridge. 
     elif answer == "cross":
         random_event = random.randint(0, 1)
@@ -34,6 +38,7 @@ def encounter_bridge():
             encounter_stranger()
     else:
         print("Not a valid option. You lose. ")
+        quit_game()
 
 # create function of the  case encoutering stranger
 def encounter_stranger():
@@ -41,9 +46,11 @@ def encounter_stranger():
     if answer == "yes":
         print("You talk to the stranger and they give you gold. You WIN!")
     elif answer == "no":
-        print("You ignore the stranger and they are offended and you lose.")        
+        print("You ignore the stranger and they are offended and you lose.")
+        quit_game()   
     else:
         print("Not a valid option. You lose. ") 
+        quit_game()
 
 # create function for quitting the game while printing the thanks message 
 def quit_game():
@@ -54,18 +61,18 @@ def quit_game():
 name = input("Type your name: ")
 print("Welcome", name, "to this adventure!")
 
-# give 3 options to the player of directions or quitting the game
-answer = input(
-    "You are on a dirt road, it has come to an end and you can go left or right." 
-    " Which way would you like to go or type q to quit: ").lower()
-if answer.lower() == 'q':
-    quit_game()
-# left choice has further two options both end the game
-elif answer == "left":
-    encounter_river()
-# right choice has more options involving a random event 
-elif answer == "right":
-    encounter_bridge()
+# using while True, give 3 options to the player of directions or quitting the game
+while True:
+    answer = input("You are on a dirt road, it has come to an end and you can go left or right." 
+                    " Which way would you like to go or type q to quit: ").lower()
+    if answer.lower() == 'q':
+        quit_game()
+    # left choice has further two options both end the game
+    elif answer == "left":
+        encounter_river()
+    # right choice has more options involving a random event 
+    elif answer == "right":
+        encounter_bridge()
 
 # print the thanking message when the game is finished
 print("Thank you for trying", name)
