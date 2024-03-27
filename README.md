@@ -22,4 +22,4 @@ The accumulated score is presented at the end of the game.
 This is an adventure game prompted by player's name.   
 By using if statements and importing random module, the player will be given two choices each stages which will take them into the next adventure or a random event. 
 
-5. Password Manager
+5. [Password Manager](https://github.com/areumhan0423/Mini-Python-Projects/blob/main/Password%20Manager.py)
