@@ -22,4 +22,7 @@ The accumulated score is presented at the end of the game.
 This is an adventure game prompted by player's name.   
 By using if statements and importing random module, the player will be given two choices each stages which will take them into the next adventure or a random event. 
 
-5. [Password Manager](https://github.com/areumhan0423/Mini-Python-Projects/blob/main/Password%20Manager.py)
+5. [Password Manager](https://github.com/areumhan0423/Mini-Python-Projects/blob/main/Password%20Manager.py)   
+This is a password manager operating with a cryptography module.  
+It handles the password by creating a file if not exist already, and then appending it to the list as the user adds new items.  
+It also allows users to view the password in an organised format.  
