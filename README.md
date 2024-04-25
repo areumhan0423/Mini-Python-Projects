@@ -1,5 +1,5 @@
 # Mini-Python-Projects
-Built on 5 mini Python projects from  Youtube [&lt;Tech with Tim>](https://www.youtube.com/watch?v=DLn3jOsNRVE)  ,
+Built on 5 mini Python projects from Youtube [&lt;Tech with Tim>](https://www.youtube.com/watch?v=DLn3jOsNRVE)  ,
 personal edits were added.
 
 <br>  
@@ -24,5 +24,4 @@ By using if statements and importing random module, the player will be given two
 
 5. [Password Manager](https://github.com/areumhan0423/Mini-Python-Projects/blob/main/Password%20Manager.py)   
 This is a password manager operating with a cryptography module.  
-It handles the password by creating a file if not exist already, and then appending it to the list as the user adds new items.  
-It also allows users to view the password in an organised format.  
+It handles the password by creating a file if not exist already, and then appending it to the list as the user adds new items while allowing users to view the password in an organised format.  
